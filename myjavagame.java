@@ -20,7 +20,6 @@ public class Main {
 		System.out.println("Guess number between 0 to 20");
 		Random numb= new Random();
 		int guessme= numb.nextInt(20);
-		System.out.println(guessme);
 		System.out.println("enter ur guess number");
 		int inpt = take.nextInt();
 		
@@ -32,7 +31,7 @@ public class Main {
 			if(guessme <20){
 			if(guessme == inpt){
 				System.out.println("congrats");
-				
+			System.out.println("Guess number is " + guessme);
 			System.out.println("THANK YOU");
 System.out.println("******************************END***************************");	
 			System.exit(0);
@@ -54,6 +53,7 @@ System.out.println("******************************END***************************
 		}
 		
 		System.out.println("THANK YOU");
+		System.out.println("Guess number is " + guessme);
 System.out.println("******************************END***************************");
 	}
 }
